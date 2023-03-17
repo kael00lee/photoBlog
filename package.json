@@ -1,21 +1,23 @@
 {
-  "name": "photorama",
+  "name": "photoBlog",
   "version": "1.0.0",
   "description": "Theme by [Start Bootstrap](http://startbootstrap.com/).",
   "main": "Gruntfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "prd -d build",
+    "predeploy": "npm run build"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sunbliss/photorama.git"
+    "url": "https://github.com/kael00lee/photoBlog.git"
   },
   "author": "Anna Prigkipaki",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/sunbliss/photorama/issues"
+    "url": "https://github.com/kael00lee/photoBlog/issues"
   },
-  "homepage": "http://sunbliss.github.io",
+  "homepage": "http://kael00lee.github.io",
   "dependencies": {
     "searchkit": "^0.7.0"
   }
