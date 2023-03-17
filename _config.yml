@@ -1,9 +1,9 @@
 # Site settings
-title: PHOTORAMA
+title: PHOTPBLOG
 email: ""
 description: "Photo Journal"
-url: "https://sunbliss.github.io"
-baseurl: "/photorama"
+url: "https://kael00lee.github.io"
+baseurl: "/photoBlog"
 facebook_username: ""
 twitter_username: ""
 instagram_username: ""
@@ -15,7 +15,7 @@ share: true
 
 # Owner/author information
 owner:
-  name:   photorama
+  name:   photoBlog
   avatar: avatar.png
   favicon: favicon.ico
   info: photography website template
@@ -33,9 +33,9 @@ comments :
 
 # Internal nav
 nav:
-  - GALLERY: "https://sunbliss.github.io/photorama/gallery/"  
-  - JOURNAL: "https://sunbliss.github.io/photorama/journal/"
-  - ABOUT: "https://sunbliss.github.io/photorama/about/"
+  - GALLERY: "https://kael00lee.github.io/photoBlog/gallery/"  
+  - JOURNAL: "https://kael00lee.github.io/photoBlog/journal/"
+  - ABOUT: "https://kael00lee.github.io/photoBlog/about/"
 
 # All translation keys
 translations:
